@@ -58,7 +58,7 @@ Pour la description j'ai choisi de récupérer tout le texte en html. On peut im
 
 ```json
 {
-	"name": "Nom de la marque",
+    "name": "Nom de la marque",
     "title": "Titre de la page d'affichage de la marque",
     "description": "Texte de description en haut de la page de la marque",
     "information": "Texte d'information en bas de la page de la marque",

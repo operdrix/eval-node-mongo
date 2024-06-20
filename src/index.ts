@@ -3,6 +3,7 @@ import { Hono } from 'hono'
 import { DbConnect } from './db'
 
 import flippers from './routes/flippers'
+import brand from './routes/brands'
 
 const app = new Hono()
 await DbConnect()
@@ -12,6 +13,7 @@ console.log(`Server is running on port ${port}`)
 
 // 3000/api/creations/
 app.route('/api', flippers)
+app.route('/api', brand)
 
 app.use("*", (c) => {
   return c.json({ msg: '404 oups' })
