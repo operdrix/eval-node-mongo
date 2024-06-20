@@ -76,7 +76,9 @@ On retrouve aussi le logo de la marque sur les pages produits.
 
 Pour améliorer la fonction de recherche, j'opterai pour un *find* de mongoose avec une regexp pour une recherche pertinente.
 
-Pour améliorer la présentation des listes de flippers,
+Pour améliorer la présentation des listes de flippers, j'opterai pour un scroll infini avec chargement de 20 éléments par 20 éléments.
+
+Il serait bien aussi que pour un même flipper qui a plusieurs versions, il n'y ait qu'une page de produit avec en option l'affichage de la version du produit. Ce qui diminuerait le nombre de produits affichés sur la page des flippers.
 
 ## Extractions
 
