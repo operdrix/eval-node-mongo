@@ -77,3 +77,7 @@ On retrouve aussi le logo de la marque sur les pages produits.
 Pour améliorer la fonction de recherche, j'opterai pour un *find* de mongoose avec une regexp pour une recherche pertinente.
 
 Pour améliorer la présentation des listes de flippers,
+
+## Extractions
+
+Les extractions de ma BDD sont présentes dans le dossier datasets
